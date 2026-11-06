@@ -17,6 +17,12 @@ plugins {
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+        // 阿里云公共 Maven 镜像
+        maven {
+            url = uri(
+                "https://maven.aliyun.com/repository/public"
+            )
+        }
         google()
         mavenCentral()
     }

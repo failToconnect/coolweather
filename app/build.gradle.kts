@@ -32,6 +32,18 @@ android {
 }
 
 dependencies {
+    // LitePal：数据库操作
+    implementation("org.litepal.guolindev:core:3.2.3")
+
+    // OkHttp：网络请求
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
+
+    // Gson：JSON 数据解析
+    implementation("com.google.code.gson:gson:2.11.0")
+
+    // Glide：图片加载
+    implementation("com.github.bumptech.glide:glide:4.16.0")
+    annotationProcessor("com.github.bumptech.glide:compiler:4.16.0")
     implementation(libs.activity.ktx)
     implementation(libs.appcompat)
     implementation(libs.constraintlayout)
