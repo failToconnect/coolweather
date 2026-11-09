@@ -32,6 +32,7 @@ android {
 }
 
 dependencies {
+    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
     // LitePal：数据库操作
     implementation("org.litepal.guolindev:core:3.2.3")
 
